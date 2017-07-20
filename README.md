@@ -6,7 +6,7 @@ Userscript for Wikidata to make all Kulturarvsdata URIs(`P1260`) link to their h
 
 Paste the following into your `commons.js` file:
 
-```
+```js
 mw.loader.using(['jquery.ui.dialog'], function() {
   $(window).on('load', function() {
     // common functions
