@@ -1,5 +1,5 @@
 mw.loader.using(['jquery.ui.dialog'], function() {
-  $(window).on('load', function() {
+  $(document).ready(function() {
     // common functions
     String.prototype.insertAt=function(index, string) {
       return this.substr(0, index) + string + this.substr(index);
